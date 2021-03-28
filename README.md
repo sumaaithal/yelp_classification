@@ -1,5 +1,5 @@
 # yelp_classification
-reviews are classified either by 1 star or 5 star using multi-nominal NaiveBayes Algorithm
+reviews are classified either by 1 star or 5 star using multi-nominal NaiveBayes/Random Forest classifier/pipeline method Algorithm
 tools 
 #numpy
 #pandas 
@@ -14,4 +14,8 @@ methodology
 #created a NB model
 #trained the data
 #predicted the data
-#evaluated the model using confusion matrix and classification report
+#evaluated the model using confusion matrix and classification report 
+result : MNB was way better than RFC
+
+#pipeline method -- tfidftransformer is used for both MNB/RFC
+rfc result was way better than MNB
